@@ -1,0 +1,9 @@
+export const box1 = (num) => ({ type: "SET_BOX1", payload: num });
+export const box2 = (num) => ({ type: "SET_BOX2", payload: num });
+export const box3 = (num) => ({ type: "SET_BOX3", payload: num });
+export const box4 = (num) => ({ type: "SET_BOX4", payload: num });
+export const box5 = (num) => ({ type: "SET_BOX5", payload: num });
+export const box6 = (num) => ({ type: "SET_BOX6", payload: num });
+export const box7 = (num) => ({ type: "SET_BOX7", payload: num });
+export const box8 = (num) => ({ type: "SET_BOX8", payload: num });
+export const box9 = (num) => ({ type: "SET_BOX9", payload: num });
