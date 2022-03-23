@@ -57,6 +57,19 @@ const reducer = (state = intialState, action) => {
         ...state,
         box9: action.payload,
       };
+    case "RESET_GAME":
+      return {
+        ...state,
+        box1: null,
+        box2: null,
+        box3: null,
+        box4: null,
+        box5: null,
+        box6: null,
+        box7: null,
+        box8: null,
+        box9: null,
+      };
     default:
       return state;
   }

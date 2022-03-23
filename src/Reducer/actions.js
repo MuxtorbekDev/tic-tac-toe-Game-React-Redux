@@ -7,3 +7,4 @@ export const box6 = (num) => ({ type: "SET_BOX6", payload: num });
 export const box7 = (num) => ({ type: "SET_BOX7", payload: num });
 export const box8 = (num) => ({ type: "SET_BOX8", payload: num });
 export const box9 = (num) => ({ type: "SET_BOX9", payload: num });
+export const resetGame = () => ({ type: "RESET_GAME" });
